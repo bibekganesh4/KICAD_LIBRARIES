@@ -1,0 +1,278 @@
+(footprint "RS232_To_TTL_Module"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 -16.79 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "094febb7-5d8f-4fac-b06a-a79cb60eb830")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RS232_To_TTL_Module"
+		(at -0.8 1.93 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7f932210-125e-4a39-b7d3-41d07bdc2f0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.2 -2.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b7f5258-1fee-4992-a2aa-b94d3dc8a1a5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.2 -2.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4de0c2bc-2a8b-48d3-8faa-387eecea8536")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.2 -2.08 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4956ba82-0e97-477b-acc8-51cf1420583e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.94 12.88)
+		(end -4.94 11.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5dfd817d-ee5e-40ce-b933-6228a5252ec1")
+	)
+	(fp_line
+		(start -3.61 12.88)
+		(end -4.94 12.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "793dcec7-4119-47d0-88ea-f4f10e79a15c")
+	)
+	(fp_line
+		(start -2.34 10.22)
+		(end 5.34 10.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae753dab-4503-45b6-a715-788b719297f9")
+	)
+	(fp_line
+		(start -2.34 12.88)
+		(end -2.34 10.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0714fde-f66b-4e13-812e-174977716369")
+	)
+	(fp_line
+		(start -2.34 12.88)
+		(end 5.34 12.88)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57244ef2-646d-4111-b26c-71c2a5095cad")
+	)
+	(fp_line
+		(start 5.34 12.88)
+		(end 5.34 10.22)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "045b7f2f-6c8b-436d-82de-c2646197c548")
+	)
+	(fp_rect
+		(start -15.675 -15.68)
+		(end 16.075 13.22)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "5320fe8d-414d-4269-934f-a4ca491bf5e5")
+	)
+	(fp_rect
+		(start -15.775 -15.78)
+		(end 16.175 13.32)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6a8a4b1f-7534-4d64-b51d-27297bd33a52")
+	)
+	(fp_line
+		(start -4.88 10.28)
+		(end 5.28 10.28)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "17538b90-5604-4bd7-8b41-118b5eeeae84")
+	)
+	(fp_line
+		(start -4.88 12.185)
+		(end -4.88 10.28)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fa50b8ed-065d-4ad3-ba94-196c6dd19925")
+	)
+	(fp_line
+		(start -4.245 12.82)
+		(end -4.88 12.185)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "09d9a3e0-18bf-4663-a2f2-e116ad1e6f9e")
+	)
+	(fp_line
+		(start 5.28 10.28)
+		(end 5.28 12.82)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ef7a4da7-10ff-4795-9d22-59d3de4c902a")
+	)
+	(fp_line
+		(start 5.28 12.82)
+		(end -4.245 12.82)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9769073d-3684-4906-babf-723337d5f345")
+	)
+	(fp_rect
+		(start -15.575 -15.58)
+		(end 15.975 13.12)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "1bd2ff70-a466-49bb-9f92-007cd45b7489")
+	)
+	(fp_text user "RS232_TO_TTL"
+		(at -10.526192 -3.09 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7f482613-6174-4411-8123-2c9b8cc8e537")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.3)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.61 11.55 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ad39ab28-2f96-410d-8667-62a062dd2b92")
+	)
+	(pad "2" thru_hole oval
+		(at -1.07 11.55 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7dde5fb0-7a3d-461c-94c9-3c028709d882")
+	)
+	(pad "3" thru_hole oval
+		(at 1.47 11.55 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8c48b0c8-45bf-4b9d-b9e4-7f9e8f3092d7")
+	)
+	(pad "4" thru_hole oval
+		(at 4.01 11.55 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "74038d20-58e4-49dd-8e8d-46f2ed658057")
+	)
+	(group ""
+		(uuid "cc975ac8-a33a-4bf1-bd6c-dc3627ed2dd2")
+		(members "045b7f2f-6c8b-436d-82de-c2646197c548" "09d9a3e0-18bf-4663-a2f2-e116ad1e6f9e"
+			"17538b90-5604-4bd7-8b41-118b5eeeae84" "57244ef2-646d-4111-b26c-71c2a5095cad"
+			"5dfd817d-ee5e-40ce-b933-6228a5252ec1" "74038d20-58e4-49dd-8e8d-46f2ed658057"
+			"793dcec7-4119-47d0-88ea-f4f10e79a15c" "7dde5fb0-7a3d-461c-94c9-3c028709d882"
+			"8c48b0c8-45bf-4b9d-b9e4-7f9e8f3092d7" "9769073d-3684-4906-babf-723337d5f345"
+			"ad39ab28-2f96-410d-8667-62a062dd2b92" "ae753dab-4503-45b6-a715-788b719297f9"
+			"b0714fde-f66b-4e13-812e-174977716369" "ef7a4da7-10ff-4795-9d22-59d3de4c902a"
+			"fa50b8ed-065d-4ad3-ba94-196c6dd19925"
+		)
+	)
+	(model "D:/ROBOTRONICS/LIBRARY/KIKAD/3D Body/ATMEGA328P_with_Base/atmega328 with base.stp"
+		(offset
+			(xyz 71.5 -128 -41)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

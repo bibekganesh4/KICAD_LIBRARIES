@@ -1,0 +1,122 @@
+(footprint "Thick_Film_Resistor"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Thick Film Resistor")
+	(property "Reference" "REF**"
+		(at 0.04 -5.07 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2f93d465-1abc-4837-b209-6351db46ddab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Thick_Film_Resistor"
+		(at 0.04 2.39 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3d2d6662-63db-4f46-bec2-ddcbe6907f49")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.04 -0.06 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "190159c3-beeb-44f9-808d-1aacbc0d28fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.04 -0.06 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d694f888-1992-45be-abf2-498616ddbd60")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Thick Film Resistor"
+		(at 0.04 -0.06 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d505620-4369-4b52-80d3-7f49671a1b43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -12.46 -1.31)
+		(end 12.54 1.19)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f3081d4b-b599-407b-a83c-13a44e136684")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.04 -3.51 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d8f41e87-3874-40e4-a9ff-3d5ef603d6c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -11.21 -0.06)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a62a6649-a1e2-4570-a558-8990d4610779")
+	)
+	(pad "2" thru_hole circle
+		(at 11.29 -0.06)
+		(size 1.524 1.524)
+		(drill 0.762)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "112d3756-4238-4df4-b93d-fa5c625c5264")
+	)
+	(group ""
+		(uuid "82ebb657-5d0c-43b4-aea3-310480e592da")
+		(members "5164db8d-240b-45d5-b293-c12d2b2ef846" "bbf364bb-1dfb-4e31-b270-7b9f1c36dcd9")
+	)
+	(group ""
+		(uuid "bbf364bb-1dfb-4e31-b270-7b9f1c36dcd9")
+		(members "112d3756-4238-4df4-b93d-fa5c625c5264" "a62a6649-a1e2-4570-a558-8990d4610779")
+	)
+	(group ""
+		(uuid "5164db8d-240b-45d5-b293-c12d2b2ef846")
+		(members "f3081d4b-b599-407b-a83c-13a44e136684")
+	)
+)
