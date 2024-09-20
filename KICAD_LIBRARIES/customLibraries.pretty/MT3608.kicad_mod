@@ -1,0 +1,235 @@
+(footprint "MT3608"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.0075 2.755 0)
+		(layer "F.SilkS")
+		(uuid "97798776-f2d0-4fef-abad-f3230623295f")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MT3608"
+		(at 0.3 3.4 180)
+		(layer "F.Fab")
+		(uuid "e174468e-8cab-44b2-a070-4f3daa739492")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "customLibraries:MT3608"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94c8730d-1894-4571-93c5-5019718e290f")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78e60df9-6042-45c1-b8aa-970050d9a82e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8915bb31-8555-4ea0-9e57-15639910c875")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.85 -1.565)
+		(end 0.85 -1.565)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "febf8b8e-905c-4892-92f9-7320a75aac4e")
+	)
+	(fp_line
+		(start 0.85 1.565)
+		(end -0.85 1.565)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "10874572-46d2-4567-8547-afc63decc5e4")
+	)
+	(fp_circle
+		(center -2.305 -0.95)
+		(end -2.205 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d78c1f7d-667e-4f4e-960f-d9563b8f7baf")
+	)
+	(fp_line
+		(start -2.105 -1.75)
+		(end 2.105 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8418f876-4f9f-4811-99c0-46cb5c2d711e")
+	)
+	(fp_line
+		(start -2.105 1.75)
+		(end -2.105 -1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "db7c3147-7d9e-4ca2-9c08-a1cdcdea27ed")
+	)
+	(fp_line
+		(start 2.105 -1.75)
+		(end 2.105 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b84747f-4fa6-410b-a35d-850e17093155")
+	)
+	(fp_line
+		(start 2.105 1.75)
+		(end -2.105 1.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fe65f07b-d5ce-465c-b5b7-a99e826ca0fb")
+	)
+	(fp_line
+		(start -0.85 -1.5)
+		(end 0.85 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "803f1783-4e9c-4451-9381-dca864a7f18b")
+	)
+	(fp_line
+		(start -0.85 1.5)
+		(end -0.85 -1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9275b608-4597-49c1-87d0-05780daa5102")
+	)
+	(fp_line
+		(start 0.85 -1.5)
+		(end 0.85 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e882cd7d-535a-4c25-9202-18f2c0bd633f")
+	)
+	(fp_line
+		(start 0.85 1.5)
+		(end -0.85 1.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e28664f5-ec01-4773-8b20-84bddd31f814")
+	)
+	(fp_circle
+		(center -2.305 -0.95)
+		(end -2.205 -0.95)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "833b0537-e6b0-476b-8c03-1ad79da7f905")
+	)
+	(pad "1" smd roundrect
+		(at -1.17 -0.95)
+		(size 1.37 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "2c2d5835-ffc9-4180-bfb7-18c46a9947db")
+	)
+	(pad "2" smd roundrect
+		(at -1.17 0)
+		(size 1.37 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "5e6f755e-e255-4219-ab15-adedd3b50b6a")
+	)
+	(pad "3" smd roundrect
+		(at -1.17 0.95)
+		(size 1.37 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "4033d4e2-3d93-4402-af97-614ffb9d50cf")
+	)
+	(pad "4" smd roundrect
+		(at 1.17 0.95)
+		(size 1.37 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "0cb8a108-911b-41b4-96db-72f7979e7068")
+	)
+	(pad "5" smd roundrect
+		(at 1.17 0)
+		(size 1.37 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "af51b996-41b5-4d2b-9638-d4102562352c")
+	)
+	(pad "6" smd roundrect
+		(at 1.17 -0.95)
+		(size 1.37 0.59)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.102)
+		(uuid "640e6fee-5380-44f5-8f45-b25b8b9300a6")
+	)
+)

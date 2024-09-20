@@ -1,0 +1,522 @@
+(footprint "BUZZER_CUI_CMI-9655S-SMT"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.911075 -7.027625 0)
+		(layer "F.SilkS")
+		(uuid "ab9f8e7e-2f35-4502-933b-892e753cc081")
+		(effects
+			(font
+				(size 1.000102 1.000102)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "BUZZER_CMI-9655S-SMT"
+		(at 5.717165 7.011125 0)
+		(layer "F.Fab")
+		(uuid "9a576f38-9f36-44f6-bdc8-7fa77b5a55ee")
+		(effects
+			(font
+				(size 1.000024 1.000024)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "customLibraries:BUZZER_CUI_CMI-9655S-SMT"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c15f1b9b-9b19-4267-8ad8-7b5456422574")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "05b4e3d8-330e-429b-96a3-b0793b009a05")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "9.6 mm, 5 Vdc, 85 dB, 2.7 kHz, Surface Mount _SMT_, Driving Circuit, Magnetic Audio Indicator Buzzer"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2fbe0759-04b4-4c7f-9b1f-65499fcccc4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "CUI_purchase_URL" "https://www.cuidevices.com/product/audio/buzzers/audio-indicators/cmi-9655s-smt-tr?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3766405e-d477-4faa-9fd0-1444f10f9503")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "CUI Devices"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41c5d9d2-532a-4a42-a468-5b74055b53af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIGI-KEY_PURCHASE_URL" "https://www.digikey.in/product-detail/en/cui-inc/CMI-9655S-SMT-TR/102-3738-1-ND/6012442?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cc05acae-1351-4e20-8ef6-493e121a3a39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PACKAGE" "CUI Inc."
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "692821b3-8242-4304-8bb8-6d00f40ccd13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d5063e46-cd85-4095-9d14-3e413d8cffb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f66d4cdf-1648-4732-8018-6c30c35a4507")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/CMI-9655S-SMT-TR/CUI+Devices/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c6cd2a4-189a-448c-8da2-177639d5ca25")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CUI_PURCHASE_URL" "https://www.cui.com/product/audio/buzzers/audio-indicators/cmi-9655s-smt?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "af741d2b-d752-4348-a6f1-826ed3e3698d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/CMI-9655S-SMT-TR/CUI+Devices/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5855de97-ee63-45ac-af61-006e61404737")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "CMI-9655S-SMT-TR"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3139be84-9416-42d5-acbc-0278f97223ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=574644&manufacturer=CUI Devices&part_name=CMI-9655S-SMT-TR&search_term=buzzer"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0473fded-8f64-46b1-a1f5-3227f3e53df8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "DIGI-KEY_PART_NUMBER" "102-3738-1-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b58cc81d-ec20-40ae-a8ad-55748e8e77f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb7edb81-e6d3-4152-8a32-34efbadf3652")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "9.6 mm, 5 Vdc, 85 dB, 2.7 kHz, Surface Mount (SMT), Driving Circuit, Magnetic Audio Indicator Buzzer"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c53db5ee-c836-49d3-9894-f4d70ff4e357")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -4.8 -4.8)
+		(end -1.6 -4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "324aec57-e30f-40da-9fbc-5029f93a106f")
+	)
+	(fp_line
+		(start -4.8 2.4)
+		(end -4.8 -4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ec760da-bade-4e24-89ee-7081b7ddbe44")
+	)
+	(fp_line
+		(start -4.8 2.4)
+		(end -2.4 4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "96e45a52-5824-4282-9ab8-f9dfa5ce66af")
+	)
+	(fp_line
+		(start -2.4 4.8)
+		(end -1.6 4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "551bda90-c05a-4b71-af65-185e3c67a1d2")
+	)
+	(fp_line
+		(start 1.6 4.8)
+		(end 4.8 4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "400e6485-229b-430a-957d-d00720f22a4f")
+	)
+	(fp_line
+		(start 4.8 -4.8)
+		(end 1.6 -4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee3f17dd-ff1d-4923-af82-c31e49113c10")
+	)
+	(fp_line
+		(start 4.8 -4.8)
+		(end 4.8 4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "831f5139-4323-4ec2-90ac-ac0b17324e06")
+	)
+	(fp_line
+		(start -5.05 -5.05)
+		(end -5.05 2.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a8fe3a4b-bc9c-4288-bee3-920e1f166af6")
+	)
+	(fp_line
+		(start -5.05 2.65)
+		(end -2.65 5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "271edc52-8311-4d30-ad81-84be52c52713")
+	)
+	(fp_line
+		(start -2.65 5.05)
+		(end -1.5 5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "212d97ab-c493-49ee-a66c-f530f9e333d2")
+	)
+	(fp_line
+		(start -1.5 -5.05)
+		(end -5.05 -5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "eebba754-38eb-4080-897c-8f2e478e8db5")
+	)
+	(fp_line
+		(start -1.5 -5.05)
+		(end -1.5 -5.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17ce659f-3059-4478-92e2-6142f773aa25")
+	)
+	(fp_line
+		(start -1.5 5.75)
+		(end -1.5 5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e295b95c-a071-4a3a-9659-0585b148d955")
+	)
+	(fp_line
+		(start -1.5 5.75)
+		(end 1.5 5.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7f73975e-2d1b-4737-af3f-3cb6d4559d6a")
+	)
+	(fp_line
+		(start 1.5 -5.75)
+		(end -1.5 -5.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "77467df7-fa46-40e5-84de-51275f66b2fb")
+	)
+	(fp_line
+		(start 1.5 -5.05)
+		(end 1.5 -5.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e22a1e5-e500-4b50-855d-a89552a7ddc3")
+	)
+	(fp_line
+		(start 1.5 5.05)
+		(end 5.05 5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "82fe1706-175a-4ca9-810c-2ee0a5394df6")
+	)
+	(fp_line
+		(start 1.5 5.75)
+		(end 1.5 5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "19118010-09a1-440b-a943-f8cd53b25239")
+	)
+	(fp_line
+		(start 5.05 -5.05)
+		(end 1.5 -5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8b9ae4bd-36b5-457d-9eee-f0cc99cd44ad")
+	)
+	(fp_line
+		(start 5.05 5.05)
+		(end 5.05 -5.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "594e907e-593f-46fe-9a9d-23fe412b5960")
+	)
+	(fp_line
+		(start -4.8 -4.8)
+		(end 4.8 -4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e98c337-a08c-401f-8419-0616e7a303dd")
+	)
+	(fp_line
+		(start -4.8 2.4)
+		(end -4.8 -4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "06c065e2-e84b-4250-bc23-26040b20ecea")
+	)
+	(fp_line
+		(start -4.8 2.4)
+		(end -2.4 4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ace9d02-08e6-447c-8801-f69e97e2cb4f")
+	)
+	(fp_line
+		(start 4.8 -4.8)
+		(end 4.8 4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f65bd420-2fd9-4f6f-b686-4ce19ddc1e3b")
+	)
+	(fp_line
+		(start 4.8 4.8)
+		(end -2.4 4.8)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "07204462-e041-43a5-8dbf-ffd5d9c62984")
+	)
+	(fp_text user "+"
+		(at 2.56004 -6.93339 0)
+		(layer "F.SilkS")
+		(uuid "841a5ec1-2ddc-40ae-829b-d244b0d1a61b")
+		(effects
+			(font
+				(size 1.001937 1.001937)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "N" smd rect
+		(at 0 4)
+		(size 2.5 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "25badd57-7170-48a3-b1c2-ba54f0e7c624")
+	)
+	(pad "P" smd rect
+		(at 0 -4)
+		(size 2.5 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.102)
+		(uuid "8c16972a-ea93-41b8-be0c-3c6c52871717")
+	)
+)

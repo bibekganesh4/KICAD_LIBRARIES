@@ -1,28 +1,412 @@
-
-(footprint SW_TS02-66-95-BK-260-LCR-D (layer F.Cu) (tedit 66B2E745)
-  (descr "")
-  (fp_text reference REF** (at -1.079 -4.889 0) (layer F.SilkS)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (fp_text value SW_TS02-66-95-BK-260-LCR-D (at 12.256 4.889 0) (layer F.Fab)
-    (effects (font (size 1.0 1.0) (thickness 0.15)))
-  )
-  (pad 1 thru_hole rect (at -3.25 -2.25) (size 1.508 1.508) (drill 1.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (pad 2 thru_hole circle (at 3.25 -2.25) (size 1.508 1.508) (drill 1.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (pad 3 thru_hole circle (at -3.25 2.25) (size 1.508 1.508) (drill 1.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (pad 4 thru_hole circle (at 3.25 2.25) (size 1.508 1.508) (drill 1.0) (layers *.Cu *.Mask) (solder_mask_margin 0.102))
-  (fp_line (start -3.0 -3.0) (end 3.0 -3.0) (layer F.Fab) (width 0.127))
-  (fp_line (start 3.0 -3.0) (end 3.0 3.0) (layer F.Fab) (width 0.127))
-  (fp_line (start 3.0 3.0) (end -3.0 3.0) (layer F.Fab) (width 0.127))
-  (fp_line (start -3.0 3.0) (end -3.0 -3.0) (layer F.Fab) (width 0.127))
-  (fp_line (start -2.176 -3.0) (end 2.176 -3.0) (layer F.SilkS) (width 0.127))
-  (fp_line (start 3.0 -1.176) (end 3.0 1.176) (layer F.SilkS) (width 0.127))
-  (fp_line (start -2.176 3.0) (end 2.176 3.0) (layer F.SilkS) (width 0.127))
-  (fp_line (start -3.0 -1.176) (end -3.0 1.176) (layer F.SilkS) (width 0.127))
-  (fp_line (start -4.254 -3.254) (end -4.254 3.254) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -4.254 3.254) (end 4.254 3.254) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 4.254 3.254) (end 4.254 -3.254) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 4.254 -3.254) (end -4.254 -3.254) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center -3.25 -4.004) (end -3.15 -4.004) (layer F.SilkS) (width 0.2))
-  (fp_circle (center -3.25 -4.004) (end -3.15 -4.004) (layer F.Fab) (width 0.2))
+(footprint "Tact_Pushbutton_6x6"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -5.3 -0.0065 -90)
+		(layer "F.SilkS")
+		(uuid "7911d32f-8e6d-4f06-9dea-ca6ef3a9f412")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Tact_Pushbutton_6x6"
+		(at 12.256 4.889 180)
+		(layer "F.Fab")
+		(uuid "26f6562d-9dd2-4a9d-85d4-a860324899e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "customLibraries:Tact_Pushbutton_6x6"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9700f384-4712-4aca-bdf1-d7eed66138d6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb76b1d7-a0c1-4845-997e-aaaf1f630b51")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8719e38-70f7-4824-8f05-72c6790399af")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "MF" "CUI Devices"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60aa83bc-72b3-49df-a418-294960b388b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "6 x 6 mm, 9.5 mm Actuator Height, 260 gf, Black, Long Crimped, Through Hole, SPST, Tactile Switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "79e0e2d0-20ca-411b-9a54-6bb53cae5887")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6c9912bf-dbd5-4f58-b0d2-e126f644b854")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ecc41bf-21cd-473d-9545-a0523c8102c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/TS02-66-95-BK-260-LCR-D/CUI+Devices/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87c9f546-70c2-46f3-aaa4-fbc6770f41fa")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "Manufacturer Recommendations"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "952861f0-0a93-4450-84ca-0636ba1eace3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "1.0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8da68622-a64a-4306-b58e-ae999c4b5064")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/TS02-66-95-BK-260-LCR-D/CUI+Devices/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "78efdb5f-32d4-4b51-ba75-43f72846d1b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "TS02-66-95-BK-260-LCR-D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6ea067b6-cb49-49bf-948c-be22e06bd495")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=8666106&manufacturer=CUI Devices&part_name=TS02-66-95-BK-260-LCR-D&search_term=tactile"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b05dbdeb-980a-43e8-8c6d-47a873c28e7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "CUI_purchase_URL" "https://www.cuidevices.com/product/switches/tactile-switches/ts02-66-95-bk-260-lcr-d?utm_source=snapeda.com&utm_medium=referral&utm_campaign=snapedaBOM"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0cfd8536-96b2-4303-87d2-213d4066dead")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "In Stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddbaa326-5c9a-4442-b7a5-9dedf337c592")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "CUI Devices"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "795ddaa6-6665-4afe-a54f-f5df270bf87f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3 -1.176)
+		(end -3 1.176)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d98622e3-4d6d-4c8a-b37c-430bf4582e9e")
+	)
+	(fp_line
+		(start -2.176 -3)
+		(end 2.176 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e348b2e1-0947-467a-9952-762d47986822")
+	)
+	(fp_line
+		(start -2.176 3)
+		(end 2.176 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "40d1461c-44cb-4909-8399-80b48b1fc8e0")
+	)
+	(fp_line
+		(start 3 -1.176)
+		(end 3 1.176)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e076b8ad-0424-4986-ac6e-c0ad29249b42")
+	)
+	(fp_circle
+		(center -3.25 -4.004)
+		(end -3.15 -4.004)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "fbda2a9a-5477-40fe-bacc-190132b8e301")
+	)
+	(fp_line
+		(start -4.254 -3.254)
+		(end -4.254 3.254)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8df4c7b5-99fd-4bde-a49a-a03bacafcca4")
+	)
+	(fp_line
+		(start -4.254 3.254)
+		(end 4.254 3.254)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "34cce8d4-c041-4c3b-a00d-6760b4ad2a6b")
+	)
+	(fp_line
+		(start 4.254 -3.254)
+		(end -4.254 -3.254)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4e06c129-45a1-4d95-98d1-048678cdfecf")
+	)
+	(fp_line
+		(start 4.254 3.254)
+		(end 4.254 -3.254)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f1a98476-81b7-46d8-9298-61e1fb2d8ddb")
+	)
+	(fp_line
+		(start -3 -3)
+		(end 3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "375650b5-1e32-4524-98c0-87913d704884")
+	)
+	(fp_line
+		(start -3 3)
+		(end -3 -3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8bec9ce4-ed26-4915-a013-c115955f42f2")
+	)
+	(fp_line
+		(start 3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "558b80dc-937e-42ff-bc67-54b28fb34808")
+	)
+	(fp_line
+		(start 3 3)
+		(end -3 3)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8401e3ee-8bb0-4422-a749-11281624e374")
+	)
+	(fp_circle
+		(center -3.25 -4.004)
+		(end -3.15 -4.004)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "108d5d2e-9914-458d-b938-c3749da656a0")
+	)
+	(pad "1" thru_hole circle
+		(at -3.25 -2.25)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "e1cd7347-bcb7-478e-a59d-fef90db1d41d")
+	)
+	(pad "2" thru_hole circle
+		(at 3.25 -2.25)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "ff815a1e-9d6a-46b0-b040-45c38901e79c")
+	)
+	(pad "3" thru_hole circle
+		(at -3.25 2.25)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "c01130b6-a0f5-4747-ab03-7579ddc616ee")
+	)
+	(pad "4" thru_hole circle
+		(at 3.25 2.25)
+		(size 2.2 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "42c142cd-5394-4447-88c0-5cabc76e5b88")
+	)
 )
